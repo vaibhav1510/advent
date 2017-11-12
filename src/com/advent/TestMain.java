@@ -1,8 +1,10 @@
 package com.advent;
 
-public class Main {
+/**
+ * Created by cb-vaibhav on 12/11/17.
+ */
+public class TestMain {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
     }
 }
