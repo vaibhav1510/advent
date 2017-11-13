@@ -51,4 +51,7 @@ Session.vim
 
 advent.iml
 
+#app
+main-app/build/
+
 
