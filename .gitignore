@@ -1,9 +1,6 @@
 # Compiled class file
 *.class
 
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -55,3 +52,5 @@ advent.iml
 main-app/build/
 
 
+# Log file
+#*.log
