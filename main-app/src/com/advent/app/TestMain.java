@@ -2,9 +2,9 @@ package com.advent.app;
 
 public class TestMain {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) throws Exception {
+		Class.forName("com.mysql.jdbc.Driver");
+		System.out.println("test");	
 	}
 
 }

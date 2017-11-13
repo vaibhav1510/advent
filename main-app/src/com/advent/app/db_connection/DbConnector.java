@@ -11,7 +11,7 @@ public class DbConnector {
 
     public static Connection open() throws Exception {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");            
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sonoo", "root", "root");
         } catch (SQLException sqlExp) {
             sqlExp.printStackTrace();
