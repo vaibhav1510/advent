@@ -1,10 +1,5 @@
 package com.advent.app.models;
 
-import com.mysql.jdbc.StringUtils;
-
-/**
- * Created by cb-vaibhav on 12/11/17.
- */
 public class User {
 
     private String email;

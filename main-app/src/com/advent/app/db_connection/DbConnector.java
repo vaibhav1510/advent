@@ -1,4 +1,4 @@
-package com.advent.db_connection;
+package com.advent.app.db_connection;
 
 import java.sql.*;
 
