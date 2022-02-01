@@ -305,3 +305,176 @@ Caused by: java.lang.IllegalArgumentException: The main resource set specified [
 13-Nov-2017 10:36:57.200 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 13-Nov-2017 10:36:57.201 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 13-Nov-2017 10:36:57.202 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:38:52.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+13-Nov-2017 10:38:52.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+13-Nov-2017 10:38:52.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+13-Nov-2017 10:38:52.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+13-Nov-2017 10:38:52.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+13-Nov-2017 10:38:52.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+13-Nov-2017 10:38:52.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+13-Nov-2017 10:38:52.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_25-b17
+13-Nov-2017 10:38:52.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2017 10:38:52.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:38:52.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:38:52.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/logging.properties
+13-Nov-2017 10:38:52.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2017 10:38:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2017 10:38:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/endorsed
+13-Nov-2017 10:38:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:38:52.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:38:52.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/temp
+13-Nov-2017 10:38:52.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/cb-vaibhav/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+13-Nov-2017 10:38:52.754 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:38:52.797 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2017 10:38:52.802 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:38:52.805 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2017 10:38:52.806 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 702 ms
+13-Nov-2017 10:38:52.838 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+13-Nov-2017 10:38:52.838 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+13-Nov-2017 10:38:52.848 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/Catalina/localhost/main-app.xml
+13-Nov-2017 10:38:52.953 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+13-Nov-2017 10:38:53.003 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/main-app]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7e08e2f9]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/../../../../main-app/build/web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+13-Nov-2017 10:38:53.006 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/Catalina/localhost/main-app.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/main-app]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+13-Nov-2017 10:38:53.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/Catalina/localhost/main-app.xml has finished in 164 ms
+13-Nov-2017 10:38:53.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/docs
+13-Nov-2017 10:38:53.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/docs has finished in 287 ms
+13-Nov-2017 10:38:53.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/manager
+13-Nov-2017 10:38:53.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/manager has finished in 48 ms
+13-Nov-2017 10:38:53.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/examples
+13-Nov-2017 10:38:53.576 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+13-Nov-2017 10:38:53.576 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+13-Nov-2017 10:38:53.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/examples has finished in 234 ms
+13-Nov-2017 10:38:53.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/ROOT
+13-Nov-2017 10:38:53.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/ROOT has finished in 33 ms
+13-Nov-2017 10:38:53.621 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/host-manager
+13-Nov-2017 10:38:53.660 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/host-manager has finished in 39 ms
+13-Nov-2017 10:38:53.664 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:38:53.676 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:38:53.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 870 ms
+13-Nov-2017 10:39:07.598 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Nov-2017 10:39:07.598 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:39:07.654 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:39:07.705 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+13-Nov-2017 10:39:07.726 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:39:07.802 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:39:07.903 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:39:07.903 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:40:08.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+13-Nov-2017 10:40:08.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+13-Nov-2017 10:40:08.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+13-Nov-2017 10:40:08.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+13-Nov-2017 10:40:08.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+13-Nov-2017 10:40:08.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+13-Nov-2017 10:40:08.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+13-Nov-2017 10:40:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_25-b17
+13-Nov-2017 10:40:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2017 10:40:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:40:08.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:40:08.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/logging.properties
+13-Nov-2017 10:40:08.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2017 10:40:08.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2017 10:40:08.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/endorsed
+13-Nov-2017 10:40:08.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:40:08.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat
+13-Nov-2017 10:40:08.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/temp
+13-Nov-2017 10:40:08.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/cb-vaibhav/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+13-Nov-2017 10:40:09.046 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:40:09.076 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2017 10:40:09.080 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:40:09.083 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2017 10:40:09.084 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 731 ms
+13-Nov-2017 10:40:09.122 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+13-Nov-2017 10:40:09.122 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+13-Nov-2017 10:40:09.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/Catalina/localhost/main-app.xml
+13-Nov-2017 10:40:09.196 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+13-Nov-2017 10:40:09.228 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/main-app]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1ed29a92]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/../../main-app/build/web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+13-Nov-2017 10:40:09.230 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/Catalina/localhost/main-app.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/main-app]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+13-Nov-2017 10:40:09.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/conf/Catalina/localhost/main-app.xml has finished in 99 ms
+13-Nov-2017 10:40:09.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/docs
+13-Nov-2017 10:40:09.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/docs has finished in 261 ms
+13-Nov-2017 10:40:09.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/manager
+13-Nov-2017 10:40:09.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/manager has finished in 46 ms
+13-Nov-2017 10:40:09.541 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/examples
+13-Nov-2017 10:40:09.788 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+13-Nov-2017 10:40:09.789 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+13-Nov-2017 10:40:09.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/examples has finished in 258 ms
+13-Nov-2017 10:40:09.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/ROOT
+13-Nov-2017 10:40:09.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/ROOT has finished in 20 ms
+13-Nov-2017 10:40:09.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/host-manager
+13-Nov-2017 10:40:09.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/cb-vaibhav/Vai/MyHome/workme/repos/advent/tomcat/webapps/host-manager has finished in 29 ms
+13-Nov-2017 10:40:09.854 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2017 10:40:09.863 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2017 10:40:09.864 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 779 ms
+13-Nov-2017 21:24:38.633 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]

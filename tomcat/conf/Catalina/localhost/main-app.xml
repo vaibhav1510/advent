@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" docBase="../../../../main-app/build/web/" path="/main-app"/>
+<Context antiJARLocking="true" docBase="../../main-app/build/web/" path="/main-app"/>
